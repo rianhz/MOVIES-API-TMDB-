@@ -1,9 +1,9 @@
-import Styling from './materi/styling';
+import Todoapp from './materi/todo';
 
 function App() {
   return (
     <div className='App'>
-      <Styling />
+      <Todoapp />
     </div>
   );
 }

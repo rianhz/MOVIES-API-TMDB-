@@ -1,12 +1,12 @@
 import React from 'react';
 import './header.css';
-import cv from '../../pdf/CV-Rian-Hidayat.pdf';
+import cv from './pdf/CV-Rian-Hidayat.pdf';
 import { BsGithub } from 'react-icons/bs';
 import { BsFacebook } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
+import imgMe from './images/hoho.png';
 
-import imgMe from '../../images/hoho.png';
 const MyHeader = () => {
   return (
     <div className='personal-wrappers'>
