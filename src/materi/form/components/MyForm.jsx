@@ -1,32 +1,15 @@
 import React from 'react';
-import { useState } from 'react';
 import '../css/form.css';
 
 const MyForm = (props) => {
-  const setUsers = props.setUser;
-  const users = props.users;
-
-  const userDatas = {
-    id: null,
-    nama: '',
-    role: '',
-    gender: '',
-    skills: '',
-  };
-
-  const [inititalUsers, setInitialUsers] = useState(userDatas);
-
-  const handleChanges = (event) => {
-    const { name, value } = event.target;
-
-    setUsers({ ...inititalUsers, [name]: value });
-    console.log(users);
-  };
+  const handleChanges = props.handleChanges;
+  const userInfo = props.userInfo;
+  const handleSubmit = props.handleSubmit;
   return (
     <div className='wrapper'>
-      <form>
-        <input type='text' name='nama' placeholder='nama' onChange={handleChanges} />
-        <input type='text' name='role' placeholder='role' onChange={handleChanges} />
+      <form onSubmit={handleSubmit}>
+        <input type='text' name='nama' placeholder='nama' value={userInfo.nama} onChange={handleChanges} />
+        <input type='text' name='role' placeholder='role' value={userInfo.role} onChange={handleChanges} />
         <div className='genders'>
           <div className='gender-wrapper'>
             <label htmlFor='pria'>Pria</label>
@@ -37,7 +20,7 @@ const MyForm = (props) => {
             <input type='radio' id='wanita' name='gender' value='wanita' onChange={handleChanges} />
           </div>
         </div>
-        <div className='form-control'>
+        {/* <div className='form-control'>
           <select id='skills ' onChange={handleChanges}>
             <option value=''>Expert in</option>
             <option value='html'>HTML</option>
@@ -45,7 +28,7 @@ const MyForm = (props) => {
             <option value='javascript'>Javascript</option>
             <option value='bootstrap'>Bootstrap</option>
           </select>
-        </div>
+        </div> */}
         <button type='submit'>Save</button>
       </form>
     </div>

@@ -34,8 +34,9 @@ const Todoapp = () => {
     if (isEdit.status === true) {
       dataUsers.forEach((el) => {
         if (el.id === isEdit.id) {
-          user.name = formData.name;
-          user.username = formData.username;
+          el.name = formData.name;
+          el.username = formData.username;
+          console.log(el.name);
         }
       });
     } else {
