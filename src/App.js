@@ -1,9 +1,9 @@
-import Todoapp from './materi/todo';
+import MyForm from './materi/formValidation';
 
 function App() {
   return (
     <div className='App'>
-      <Todoapp />
+      <MyForm />
     </div>
   );
 }
