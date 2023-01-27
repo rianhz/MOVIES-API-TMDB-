@@ -5,6 +5,7 @@ import InputForm from './components/InputForm';
 import axios from 'axios';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import MyLoader from './components/MyLoader';
 
 const LifeCycle = () => {
   const [datas, setDatas] = useState([]);
@@ -36,15 +37,21 @@ const LifeCycle = () => {
     }
   };
 
+  const [loader, setloader] = useState(true);
+
   useEffect(() => {
     hitApi().then((res) => {
-      setDatas(res);
+      setTimeout(() => {
+        setDatas(res);
+        setloader(false);
+      }, 2000);
     });
   }, []);
 
   return (
     <Container>
       <InputForm searchText={searchText} handleChange={handleChange} />
+      {loader === true ? <MyLoader /> : ''}
       <Cards datas={datas} />
     </Container>
   );

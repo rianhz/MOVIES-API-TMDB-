@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 
 const Cards = ({ datas }) => {
   return (
-    <>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '20px' }}>
       {datas.map((el, i) => {
         return (
           <Card style={{ width: '18rem' }} key={i}>
@@ -16,7 +16,7 @@ const Cards = ({ datas }) => {
           </Card>
         );
       })}
-    </>
+    </div>
   );
 };
 
