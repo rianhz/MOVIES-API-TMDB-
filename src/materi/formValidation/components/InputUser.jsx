@@ -9,6 +9,10 @@ const InputUser = ({ handleChange, handleSubmit }) => {
         <Form.Control name='nama' type='text' placeholder='Enter name' onChange={handleChange} />
       </Form.Group>
       <Form.Group className='mb-3'>
+        <Form.Label>Umur</Form.Label>
+        <Form.Control name='umur' type='number' placeholder='Enter age' onChange={handleChange} />
+      </Form.Group>
+      <Form.Group className='mb-3'>
         <Form.Label>Username</Form.Label>
         <Form.Control name='username' type='text' placeholder='Enter username' onChange={handleChange} />
       </Form.Group>

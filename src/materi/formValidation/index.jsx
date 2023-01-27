@@ -4,19 +4,38 @@ import { Container } from 'react-bootstrap';
 import InputUser from './components/InputUser';
 
 const MyForm = () => {
-  const [user, setUser] = useState({ nama: '', username: '', gender: '', skill: '' });
+  const [users, setUsers] = useState([]);
+  const [user, setUser] = useState({ nama: '', umur: 0, username: '', gender: '', skill: '' });
 
   const handleChange = (e) => {
     let data = { ...user };
 
     data[e.target.name] = e.target.value;
     setUser(data);
-    console.log(data);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`nama : ${user.nama} \nrole : ${user.username} \ngender : ${user.gender} \nlove : ${user.skill}`);
+
+    const data = { ...user };
+
+    let nama = data.nama;
+    let umur = data.umur;
+    let username = data.username;
+
+    if (username.length < 5 || nama.length < 5 || umur === 0) {
+      if (nama.length < 5) {
+        alert('nama harus lebih dari 5 karakter');
+      }
+      if (username.length < 1) {
+        alert('username harus lebih dari 5 karakter!');
+      }
+      if (umur === 0) {
+        alert('umur tidak boleh kosong');
+      }
+    } else {
+      alert(`nama : ${user.nama} \numur : ${user.umur} \nrole : ${user.username} \ngender : ${user.gender} \nlove : ${user.skill}`);
+    }
   };
   return (
     <Container>
