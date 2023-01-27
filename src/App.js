@@ -1,9 +1,9 @@
-import MyForm from './materi/formValidation';
+import LifeCycle from './materi/lifescycleComponent';
 
 function App() {
   return (
     <div className='App'>
-      <MyForm />
+      <LifeCycle />
     </div>
   );
 }
