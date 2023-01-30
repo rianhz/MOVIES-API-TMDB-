@@ -1,9 +1,9 @@
-import LifeCycle from './materi/lifescycleComponent';
+import RoutingTest from './materi/routing';
 
 function App() {
   return (
     <div className='App'>
-      <LifeCycle />
+      <RoutingTest />
     </div>
   );
 }

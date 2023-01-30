@@ -1,0 +1,14 @@
+.navi {
+  padding: 40px 0;
+}
+.navi ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.navi ul li {
+  list-style: none;
+  cursor: pointer;
+}
