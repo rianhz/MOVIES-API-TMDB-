@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import About from './components/About';
-import Hobbiess from './components/category/Hobbiess';
+import Hobbiess from './components/Hobbiess';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
 import Shop from './components/Shop';
