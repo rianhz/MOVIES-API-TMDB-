@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MOVIES-API-TMDB-/static/css/main.748a2d78.css",
-    "main.js": "/MOVIES-API-TMDB-/static/js/main.23f75cf6.js",
+    "main.css": "/MOVIES-API-TMDB-/static/css/main.fd1de66a.css",
+    "main.js": "/MOVIES-API-TMDB-/static/js/main.70b38912.js",
     "static/js/787.f264683b.chunk.js": "/MOVIES-API-TMDB-/static/js/787.f264683b.chunk.js",
     "static/media/aaaa.jpg": "/MOVIES-API-TMDB-/static/media/aaaa.dfe358a01ebb35ff4a16.jpg",
     "static/media/revicons.eot": "/MOVIES-API-TMDB-/static/media/revicons.a77de540a38981833f9e.eot",
@@ -12,12 +12,12 @@
     "static/media/slick.ttf": "/MOVIES-API-TMDB-/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/MOVIES-API-TMDB-/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MOVIES-API-TMDB-/index.html",
-    "main.748a2d78.css.map": "/MOVIES-API-TMDB-/static/css/main.748a2d78.css.map",
-    "main.23f75cf6.js.map": "/MOVIES-API-TMDB-/static/js/main.23f75cf6.js.map",
+    "main.fd1de66a.css.map": "/MOVIES-API-TMDB-/static/css/main.fd1de66a.css.map",
+    "main.70b38912.js.map": "/MOVIES-API-TMDB-/static/js/main.70b38912.js.map",
     "787.f264683b.chunk.js.map": "/MOVIES-API-TMDB-/static/js/787.f264683b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.748a2d78.css",
-    "static/js/main.23f75cf6.js"
+    "static/css/main.fd1de66a.css",
+    "static/js/main.70b38912.js"
   ]
 }
