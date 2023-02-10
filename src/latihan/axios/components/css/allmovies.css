@@ -1,0 +1,51 @@
+h3 {
+  color: white !important;
+  margin-left: 20px;
+}
+
+.card-wrappers {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-wrappers .card {
+  position: relative;
+  width: 16rem !important;
+  background-color: rgb(33, 32, 32) !important;
+  color: white;
+  box-shadow: 0 0 8px 0 rgb(231, 194, 124);
+}
+
+.card-body {
+  height: 150px !important;
+}
+
+#details-movie {
+  bottom: 20px !important;
+  border: none;
+  outline: none;
+  border-radius: 100px !important;
+  padding: 15px;
+  width: 90%;
+  margin: 10px auto;
+  transition: all 0.5s;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase !important;
+  background: rgb(59, 54, 7);
+  background: linear-gradient(to bottom, rgba(59, 54, 7, 1) 11%, rgba(119, 111, 22, 1) 50%, rgba(15, 9, 56, 1) 97%, rgba(0, 0, 0, 1) 255%);
+  letter-spacing: 2px;
+}
+
+.details:hover {
+  box-shadow: 0 0 10px 0 rgb(231, 194, 124);
+}
+
+@media only screen and (max-width: 768px) {
+  .card-wrappers {
+    justify-content: center !important;
+  }
+}

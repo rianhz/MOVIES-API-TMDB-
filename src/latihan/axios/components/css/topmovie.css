@@ -1,0 +1,52 @@
+.react-multiple-carousel__arrow::before {
+  color: black !important;
+  border-radius: 50%;
+  background-color: white !important;
+}
+
+.react-multiple-carousel__arrow {
+  z-index: 1 !important;
+}
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: white !important;
+  margin-left: 20px;
+}
+
+.card {
+  position: relative;
+  width: 17rem !important;
+  margin: 20px !important;
+  background-color: rgb(33, 32, 32) !important;
+  color: white;
+  box-shadow: 0 0 8px 0 rgb(231, 194, 124);
+}
+
+.card-body {
+  height: 150px !important;
+}
+
+.details {
+  bottom: 20px !important;
+  border: none;
+  outline: none;
+  border-radius: 100px !important;
+  padding: 15px;
+  width: 90%;
+  margin: 10px auto;
+  transition: all 0.5s;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase !important;
+  background: rgb(59, 54, 7);
+  background: linear-gradient(to bottom, rgba(59, 54, 7, 1) 11%, rgba(119, 111, 22, 1) 50%, rgba(15, 9, 56, 1) 97%, rgba(0, 0, 0, 1) 255%);
+  letter-spacing: 2px;
+}
+
+.details:hover {
+  box-shadow: 0 0 10px 0 rgb(231, 194, 124);
+}

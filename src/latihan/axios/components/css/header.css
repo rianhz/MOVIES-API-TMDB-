@@ -1,0 +1,24 @@
+.caros {
+  padding: 0;
+  margin: 0;
+  height: 75vh;
+  position: relative;
+}
+
+.caros img {
+  width: 100%;
+  height: 100%;
+}
+
+.caros-text {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.caros h1 {
+  color: white;
+}
+.caros span {
+  color: white;
+}

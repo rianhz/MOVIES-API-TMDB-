@@ -1,9 +1,10 @@
-import RoutingTest from './materi/routing';
-
+import MyAxios from './latihan/axios';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 function App() {
   return (
     <div className='App'>
-      <RoutingTest />
+      <MyAxios />
     </div>
   );
 }
