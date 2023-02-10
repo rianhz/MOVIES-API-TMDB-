@@ -5,6 +5,9 @@
 }
 
 .react-multiple-carousel__arrow {
+  width: 25px;
+}
+.react-multiple-carousel__arrow {
   z-index: 1 !important;
 }
 .react-multi-carousel-item {

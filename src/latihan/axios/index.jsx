@@ -12,6 +12,7 @@ const MyAxios = () => {
 
   const handleDetails = (idz) => {
     detailMovies(idz).then((result) => setDetails(result));
+
     setMymodals(true);
   };
 

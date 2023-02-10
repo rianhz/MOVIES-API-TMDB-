@@ -3,7 +3,7 @@ import { Card, Container } from 'react-bootstrap';
 import './css/topmovie.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { detailMovies, topMoviesGet } from './action';
+import { topMoviesGet } from './action';
 import { useState } from 'react';
 import { useEffect } from 'react';
 

@@ -11,8 +11,6 @@ const ListAllMovies = (props) => {
   const [movies, setMovies] = useState([]);
   const [q, setQ] = useState('');
 
-  console.log(q);
-
   useEffect(() => {
     allMoviesGet().then((movies) => setMovies(movies));
   }, []);
